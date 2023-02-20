@@ -24,6 +24,14 @@ For this project I wanted to focus on optimizing my CUDA renderer and was lookin
 
 ![Point cloud fountain scene](/images/PointClouds.jpg)
 
+## Triangle Meshes
+
+For this project I finally got the chance to add support for triangle meshes along with loading .obj files. Initial implementation didn't have a proper acceleration structure and that is why I only rendered low poly models. I compensated that by adding support for more Beer law absorption for glass.
+
+![Glass model](/images/LowPolyTintedGlass3.jpg)
+
+
+
 <!--
 **voxel-tracer/voxel-tracer** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
