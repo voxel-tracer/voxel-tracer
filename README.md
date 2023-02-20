@@ -16,6 +16,14 @@ I got the inspiration of this project from [ephtracy](https://twitter.com/ephtra
 
 ![Colored heightmap](/images/VoxelHeightmap4.jpg)
 
+## Point Clouds
+
+For this project I wanted to focus on optimizing my CUDA renderer and was looking for an easy way to support very large scenes while sticking to the basic primitives (I didn't yet have support for triangle meshes at this point). I found [Michael Fogleman](https://www.michaelfogleman.com/) [DLA](https://www.michaelfogleman.com/projects/dlaf/) project which was perfect as it only required supporting points (which are basically small spheres in my renderer). Once I got that working it was straightforward rendering point clouds.
+
+![DLA point cloud](/images/DLAGenerator2.jpg)
+
+![Point cloud fountain scene](/images/PointClouds.jpg)
+
 <!--
 **voxel-tracer/voxel-tracer** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
