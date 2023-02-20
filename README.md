@@ -34,7 +34,7 @@ For this project I finally got the chance to add support for triangle meshes alo
 
 For this project I wanted to render a proper trianglemesh scene. This particular scene if from Benedikt Bitterli's [rendering resources](https://benedikt-bitterli.me/resources/), with the actual obj scene nicely provided by [Asif](https://twitter.com/knightcrawler25) as part of his [GLSL-PathTracer](https://github.com/knightcrawler25/GLSL-PathTracer). Once I got the scene rendered properly, I focused on optimizing the renderer which led me to eventually implementing more advanced BVH build algorithms (specifically triangle splitting and SBVH).
 
-![Staircase scene](/images/Staircase.jpg)
+![Staircase scene](/images/Staircase.png)
 
 ## Random Walk Subsurface Scattering
 
@@ -51,6 +51,8 @@ This was the scene that was on the cover of the 2nd edition of [Physically Based
 ## Back to basics
 
 For this project I went back to [Raytracing in One Weekend](https://raytracing.github.io/) books' code and added support for triangle meshes. For this particular implementation I wanted to focus more on adding interesting features without worrying to much of low level optimizations. For now everything is on CPU, which makes it much easier to debug when things don't work as expected.
+
+![Gold Dragon](/images/GoldenDragon.png)
 
 <!--
 **voxel-tracer/voxel-tracer** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
