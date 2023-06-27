@@ -51,20 +51,11 @@ This was the scene that was on the cover of the 2nd edition of [Physically Based
 ## Back to basics
 
 For this project I went back to [Raytracing in One Weekend](https://raytracing.github.io/) books' code and added support for triangle meshes. For this particular implementation I wanted to focus more on adding interesting features without worrying to much of low level optimizations. For now everything is on CPU, which makes it much easier to debug when things don't work as expected.
+Eventually, I rewrote the path tracer from scratch based off the [Advanced Graphics course](https://www.cs.uu.nl/docs/vakken/magr/2022-2023/index.html) from Utrecht University. As part of that, I added support for multi-threading which made rendering so much faster allowing me to explore more complex materials, including Disney's principled BRDF and volumetric absorption with and without scattering (subsurface scattering).
 
 ![Gold Dragon](/images/GoldenDragon.png)
-
-<!--
-**voxel-tracer/voxel-tracer** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+![Red Dragon with Disney BRDF](/images/RedDragon.png)
+![Orange Bunny with Disney BRDF](/images/orange-bunny-rotated-backdrop-1kspp-600x600.png)
+![Glass Dragon with volumetric absorption](/images/GlassDragonWithAbsorption.png)
+![Glass Monk with volumetric absorption](/images/GlassMonkWithAbsorption.png)
+![Baby Dragon with Subsurface Scattering](/images/BabyDragonSSS.png)
