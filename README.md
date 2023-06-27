@@ -14,6 +14,7 @@ Peter Shirley's [Raytracing in One Weekend](https://raytracing.github.io/) books
 
 I got the inspiration of this project from [ephtracy](https://twitter.com/ephtracy)'s amazing [Aerialod](https://ephtracy.github.io/index.html?page=aerialod) path tracing renderer for heightmaps. I used CUDA again and what was new with this project is that I used a voxel representation for the scene and an optimized variant of the DDA algorithm.
 
+![Colored city](/images/VoxelHeightmap3.jpg)
 ![Colored heightmap](/images/VoxelHeightmap4.jpg)
 
 ## Point Clouds
