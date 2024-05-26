@@ -1,6 +1,7 @@
 # About Me
 
-The best way to describe myself is a CG hobbyist. My day job is mostly related to distributed systems and backend engineering, but in my evenings I like to tinker on small CG projects just for fun. I am generally interested in rendering beautiful images often using offline rendering. I like to understand how complex materials work and I tend to spend too much time profiling and optimizing the code I write.
+The best way to describe myself is a CG ~hobbyist~ professional. ~My day job is mostly related to distributed systems and backend engineering~ I am full time graphics engineer at [Spline](https://spline.design/) working on super exciting CG projects. 
+I still try to fill my free time tinkering on small CG projects just for fun. I am generally interested in rendering beautiful images often using offline rendering. I like to understand how complex materials work and I tend to spend too much time profiling and optimizing the code I write.
 
 Here are some of the projects I made over the past 6 years:
 
